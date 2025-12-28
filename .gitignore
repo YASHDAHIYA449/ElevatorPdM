@@ -1,6 +1,14 @@
-__pycache__/
+# Data directory (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# Model artifacts
+*.h5
+*.pkl
+*.joblib
+
+# Jupyter
 .ipynb_checkpoints/
-.env
-*.log
-.DS_Store
-data/raw/
+
+# Python cache
+__pycache__/
