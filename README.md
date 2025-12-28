@@ -78,39 +78,7 @@ Maintain interpretability for safety-critical decision-making
 
 
 
-Raw Time-Series Sensor Data
-
-        ↓
-
-Dataset Quality Checks \& Characterization
-
-        ↓
-
-Exploratory Data Analysis (Fault \& RUL)
-
-        ↓
-
-Pre-processing \& Lifecycle Segmentation
-
-        ↓
-
-Advanced Feature Engineering
-
-        ↓
-
-Anomaly Detection Layer
-
-        ↓
-
-Fault Analysis (Classification)
-
-        ↓
-
-Health Stage Characterization
-
-        ↓
-
-RUL Regression (Baseline → Deep Learning → Residual Learning)
+Raw Time-Series Sensor Data --> Dataset Quality Checks \& Characterization --> Exploratory Data Analysis (Fault \& RUL) --> Pre-processing \& Lifecycle Segmentation --> Advanced Feature Engineering --> Anomaly Detection Layer --> Fault Analysis (Classification) --> Health Stage Characterization --> RUL Regression (Baseline → Deep Learning → Residual Learning)
 
 
 
@@ -118,23 +86,15 @@ RUL Regression (Baseline → Deep Learning → Residual Learning)
 
 
 
-Source: Public GitHub repository – ElevatorFaultDetection
-
-
-
-Geography: High-rise commercial buildings, Tokyo, Japan
-
-
-
-Duration: January 2020 – November 2024 (~5 years)
-
-
-
-Sampling Frequency: Hourly
-
-
-
-System: IoT-enabled elevator monitoring system
+Elevator Time Series data used for the study was downloaded from a publicly available 
+GitHub repository, ElevatorFaultDetection. This dataset is obtained from advanced 
+elevator monitoring and diagnostic systems deployed across high-rise commercial 
+buildings in Tokyo, Japan. The data are for almost 5 years and includes hourly 
+measurements from a network of Internet of Things (IoT) sensors embedded within the 
+elevator system, spanning January 2020 to November 2024. These sensors recorded a 
+variety of operational, mechanical, electrical, environmental, and maintenance-related 
+characteristics, which together formed an enriched dataset for a real-world elevator 
+operation.
 
 
 
